@@ -1,0 +1,61 @@
+body {
+    background-color: lightgrey;
+    user-select: none;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    background-color: #EEFF00;
+    border: solid black 3px;
+    width: 200px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    
+
+}
+
+.bulbOff {
+    background-color: #000000;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    border: solid black 3px;
+    border-radius: 50%;
+}
+
+.bulbOn {
+    background-color: #EEFF00;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    border: solid black 3px;
+    border-radius: 50%;
+}
+
+.button {
+    font-weight: 700;
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(28, 110, 164);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: cadetblue;
+}
+
+.button:active {
+    background: #000000;
+}
